@@ -1,1 +1,1 @@
-# EconWM
+# WonderEcon
