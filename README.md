@@ -8,7 +8,7 @@ All related files are distributed through the [**Releases**](../../releases) pag
 
 | File | Description |
 | --- | --- |
-| `economic_world_model-v0.0.1.zip` | Source code of the underlying algorithm engine. |
+| `WonderEcon-v0.0.1.zip` | Source code of the underlying algorithm engine. |
 | `06_JSON_house_fix_work1.zip` | Interactive-platform data/assets (required to run the demo). |
 | `EWM_Run_Windows1.zip` | Interactive-platform Windows runtime (required to run the demo). |
 | `start_observer_mode.bat` | Launcher script for the interactive platform. |
@@ -33,4 +33,4 @@ All related files are distributed through the [**Releases**](../../releases) pag
 
 ## Algorithm Engine
 
-If you only want the underlying simulation engine (without the interactive front end), download and unzip `economic_world_model-v0.0.1.zip` from the [Releases](../../releases) page.
+If you only want the underlying simulation engine (without the interactive front end), download and unzip `WonderEcon-v0.0.1.zip` from the [Releases](../../releases) page.
