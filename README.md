@@ -49,7 +49,13 @@ All related files are distributed through the [**Releases**](../../releases) pag
 
 ### Running the Interactive Platform
 
-> **Requirements:** Windows only. Python must be installed (Python **3.11 or later** is recommended).
+> **Requirements:** 
+> - **OS:** Windows only.
+> - **Python:** Python **3.11 or later** is recommended.
+> - **Dependencies:**
+>   ```bash
+>   pip install camel-ai matplotlib numpy
+>   ```
 
 1. From the [Releases](../../releases) page, download and unzip `WonderEcon-v0.0.1.zip`.
 2. Double-click **`start_all.bat`** to launch the system.
