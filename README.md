@@ -44,29 +44,17 @@ All related files are distributed through the [**Releases**](../../releases) pag
 
 | File | Description |
 | --- | --- |
-| `WonderEcon-v0.0.1.zip` | Source code of the underlying algorithm engine. |
-| `06_JSON_house_fix_work1.zip` | Interactive-platform data/assets (required to run the demo). |
-| `EWM_Run_Windows1.zip` | Interactive-platform Windows runtime (required to run the demo). |
-| `start_observer_mode.bat` | Launcher script for the interactive platform. |
+| `WonderEcon-code-v0.0.1.zip` | Source code of the underlying algorithm engine. |
+| `WonderEcon-v0.0.1.zip` | Interactive-platform includes "Observe_mode" and "Player_mode". |
 
 ### Running the Interactive Platform
 
 > **Requirements:** Windows only. Python must be installed (Python **3.11 or later** is recommended).
 
 1. From the [Releases](../../releases) page, download all three of the following:
-   - `06_JSON_house_fix_work1.zip`
-   - `EWM_Run_Windows1.zip`
-   - `start_observer_mode.bat`
-2. Extract the two `.zip` files into the **same folder**. That folder should then contain:
-   ```
-   <your-folder>/
-   ├── 06_JSON_house_fix_work1/      (extracted)
-   ├── EWM_Run_Windows1/             (extracted)
-   └── start_observer_mode.bat
-   ```
-   Make sure `start_observer_mode.bat` sits alongside the two extracted folders (not inside either of them).
-3. Double-click **`start_observer_mode.bat`** to launch the system.
-4. Once the system opens in observer mode, the quickest way in is to click **"Generate Default World Config"** at the bottom-right, then click **"Enter Observer Console"** to go straight into the world.
+   - `WonderEcon-v0.0.1.zip`
+2. Double-click **`start_all.bat`** to launch the system.
+3. In the system, you can choose to enter Observe mode / Player mode. If you enter the player mode, you need to choose information including economic month, identity and risk preference. And you can play in the WonderEcon world. Once the system opens in observer mode, the quickest way in is to click **"Generate Default World Config"** at the bottom-right, then click **"Enter Observer Console"** to go straight into the world.
 
 > **Using your own simulation data instead of the default world:** If you do not want to observe the default configuration, first run the code in `WonderEcon-v0.0.1` yourself to produce simulation results. Then replace the files in `EWM_Run_Windows1\EWM\results12` with the files from that run's `results` folder. After that, click **"Generate Default World Config"** at the bottom-right and then **"Enter Observer Console"** as above.
 >
