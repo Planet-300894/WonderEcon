@@ -47,15 +47,15 @@ All related files are distributed through the [**Releases**](../../releases) pag
 | `WonderEcon-code-v0.0.1.zip` | Source code of the underlying algorithm engine. |
 | `WonderEcon-v0.0.1.zip` | Interactive-platform includes "Observe_mode" and "Player_mode". |
 
-### Running the Interactive Platform
+### Requirements
 
-> **Requirements:** 
-> - **OS:** Windows only.
-> - **Python:** Python **3.11 or later** is recommended.
-> - **Dependencies:**
->   ```bash
->   pip install camel-ai matplotlib numpy
->   ```
+* **OS:** Windows only (for Interactive Platform)
+* **Python:** Python **3.11 or later** is recommended
+* **Dependencies:**
+  ```bash
+  pip install camel-ai matplotlib numpy
+
+### Running the Interactive Platform
 
 1. From the [Releases](../../releases) page, download and unzip `WonderEcon-v0.0.1.zip`.
 2. Double-click **`start_all.bat`** to launch the system.
