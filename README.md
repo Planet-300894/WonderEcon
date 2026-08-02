@@ -48,7 +48,7 @@ All related files are distributed through the [**Releases**](../../releases) pag
 | `WonderEcon-v0.0.1.zip` | Interactive-platform includes "Observe_mode" and "Player_mode". |
 
 ### Requirements
-
+  
 * **OS:** Windows only (for Interactive Platform)
 * **Python:** Python **3.11 or later** is recommended
 * **Dependencies:**
@@ -58,10 +58,9 @@ All related files are distributed through the [**Releases**](../../releases) pag
 Without it the system still runs normally — the step fails with a [Popover] Rebuild failed message and the popover
 keeps showing data from the previous build. Download any recent LTS version from nodejs.org (https://nodejs.org/); the
 script uses only Node built-in modules, so no npm install is needed.
-- Using a Python Virtual Environment:
-By default start_all.bat invokes whichever python is first on your system PATH. If you would rather run WonderEcon
-inside a dedicated virtual environment (conda, venv, etc.), you can ask an AI assistant to adapt the launcher for you.
-Example prompt:
+- Using a Python Virtual Environment: By default start_all.bat invokes whichever python is first on your system PATH.
+If you would rather run WonderEcon inside a dedicated virtual environment (conda, venv, etc.), you can ask an AI
+assistant to adapt the launcher for you. Example prompt:
 ▎ I want to use the Python virtual environment at <path to your environment> to run the WonderEcon program located at 
 <path to WonderEcon>. Please modify start_all.bat accordingly.
 
