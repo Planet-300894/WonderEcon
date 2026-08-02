@@ -71,9 +71,19 @@ launcher for you. Example prompt:
   > I want to use the Python virtual environment at `<path to your environment>` to run the WonderEcon program located
 at `<path to WonderEcon>`. Please modify `start_all.bat` accordingly.
 
-  Point the launcher at the interpreter named `python.exe` (or `pythonw.exe`) inside your environment. The program
-inspects `sys.executable` to distinguish a plain interpreter from a packaged executable, so an interpreter with a
-different filename may cause `settings.json` and the output directory to resolve to the wrong location.
+Make sure the path ends with **`python.exe`** — not any other filename:
+
+  ```bat
+  ✅  "C:\path\to\your\env\python.exe"        (conda)
+  ✅  "C:\path\to\your\env\Scripts\python.exe" (venv)
+  ❌  "C:\path\to\your\env\python3.exe"
+  ❌  "C:\path\to\your\env\python3.12.exe"
+  ```
+
+  WonderEcon checks the interpreter's filename to tell a normal Python run apart from a packaged build. If the name is
+anything other than `python.exe` or `pythonw.exe`, it silently reads `settings.json` from the wrong folder (so your
+API key and model settings are ignored) and writes `results` into your environment directory instead of the project
+folder. No error is shown, so this is easy to miss.
 
 ### Running the Interactive Platform
 
