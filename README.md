@@ -54,7 +54,7 @@ All related files are distributed through the [**Releases**](../../releases) pag
 * **Dependencies:**
   * Python packages:
     ```bash
-    pip install camel-ai matplotlib numpy
+    pip install camel-ai matplotlib numpy "mcp<2"
     ```
   * **Node.js** (optional, recommended): used only to refresh the building popover data after a simulation run. Without it the system still runs normally — the step fails with a `[Popover] Rebuild failed` message and the popover keeps showing data from the previous build. Download any recent LTS version from [nodejs.org](https://nodejs.org/), then verify with:
     ```bash
@@ -63,7 +63,7 @@ All related files are distributed through the [**Releases**](../../releases) pag
     The script uses only Node built-in modules, so no `npm install` is needed.
 * **Using a Python Virtual Environment:**
   By default `start_all.bat` invokes whichever `python` is first on your system `PATH`. If you would rather run WonderEcon inside a dedicated virtual environment (conda, venv, etc.), you can ask an AI assistant to adapt the launcher for you. Example prompt:
-  > I want to use the Python virtual environment at `<path to your environment>` to run the WonderEcon program located at `<path to WonderEcon>`. Please modify `start_all.bat` accordingly.
+  > I want to use the Python virtual environment at `<path to your environment>` to run the WonderEcon program located at `<path to WonderEcon>`. Please modify `start_all.bat` accordingly. Point the launcher at the interpreter file named exactly `python.exe` inside that environment — do not use `python3.exe` or any other filename, as WonderEcon checks the interpreter's filename.
 
   Make sure the path ends with **`python.exe`** — not any other filename:
 
