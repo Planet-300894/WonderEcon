@@ -68,10 +68,10 @@ All related files are distributed through the [**Releases**](../../releases) pag
   Make sure the path ends with **`python.exe`** — not any other filename:
 
   ```bat
-  ✅  "C:\path\to\your\env\python.exe"         (conda)
-  ✅  "C:\path\to\your\env\Scripts\python.exe" (venv)
-  ❌  "C:\path\to\your\env\python3.exe"
-  ❌  "C:\path\to\your\env\python3.12.exe"
+  ✅  "\path\to\your\env\python.exe"         (conda)
+  ✅  "\path\to\your\env\Scripts\python.exe" (venv)
+  ❌  "\path\to\your\env\python3.exe"
+  ❌  "\path\to\your\env\python3.12.exe"
   ```
 
   WonderEcon checks the interpreter's filename to tell a normal Python run apart from a packaged build. If the name is anything other than `python.exe` or `pythonw.exe`, it silently reads `settings.json` from the wrong folder (so your API key and model settings are ignored) and writes `results` into your environment directory instead of the project folder. No error is shown, so this is easy to miss.
