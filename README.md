@@ -57,30 +57,23 @@ All related files are distributed through the [**Releases**](../../releases) pag
     pip install camel-ai matplotlib numpy
     ```
   * **Node.js** (recommended): used only to refresh the building popover data after a simulation run.
-  Without it the system still runs normally — the step fails with a `[Popover] Rebuild failed` message and the popover
-  keeps showing data from the previous build. Download any recent LTS version from [nodejs.org](https://nodejs.org/),
-  then verify with:
-      ```bash
-      node -v
-      ```
-      The script uses only Node built-in modules, so no `npm install` is needed.
-  * **Using a Python Virtual Environment:**
-  By default `start_all.bat` invokes whichever `python` is first on your system `PATH`. If you would rather run
-  WonderEcon inside a dedicated virtual environment (conda, venv, etc.), you can ask an AI assistant to adapt the
-  launcher for you. Example prompt:
-  > I want to use the Python virtual environment at `<path to your environment>` to run the WonderEcon program located
-  at `<path to WonderEcon>`. Please modify `start_all.bat` accordingly.
-  Make sure the path ends with **`python.exe`** — not any other filename:
-    ```bat
-    ✅  "C:\path\to\your\env\python.exe"        (conda)
-    ✅  "C:\path\to\your\env\Scripts\python.exe" (venv)
-    ❌  "C:\path\to\your\env\python3.exe"
-    ❌  "C:\path\to\your\env\python3.12.exe"
+Without it the system still runs normally — the step fails with a `[Popover] Rebuild failed` message and the popover
+keeps showing data from the previous build. Download any recent LTS version from [nodejs.org](https://nodejs.org/),
+then verify with:
+    ```bash
+    node -v
     ```
-  WonderEcon checks the interpreter's filename to tell a normal Python run apart from a packaged build. If the name is
-  anything other than `python.exe` or `pythonw.exe`, it silently reads `settings.json` from the wrong folder (so your
-  API key and model settings are ignored) and writes `results` into your environment directory instead of the project
-  folder. No error is shown, so this is easy to miss.
+    The script uses only Node built-in modules, so no `npm install` is needed.
+* **Using a Python Virtual Environment:** By default `start_all.bat` invokes whichever `python` is first on your system `PATH`. If you would rather run WonderEcon inside a dedicated virtual environment (conda, venv, etc.), you can ask an AI assistant to adapt the launcher for you. Example prompt:
+> I want to use the Python virtual environment at `<path to your environment>` to run the WonderEcon program located at `<path to WonderEcon>`. Please modify `start_all.bat` accordingly.
+Make sure the path ends with **`python.exe`** — not any other filename:
+  ```bat
+  ✅  "C:\path\to\your\env\python.exe"        (conda)
+  ✅  "C:\path\to\your\env\Scripts\python.exe" (venv)
+  ❌  "C:\path\to\your\env\python3.exe"
+  ❌  "C:\path\to\your\env\python3.12.exe"
+  ```
+WonderEcon checks the interpreter's filename to tell a normal Python run apart from a packaged build. If the name is anything other than `python.exe` or `pythonw.exe`, it silently reads `settings.json` from the wrong folder (so your API key and model settings are ignored) and writes `results` into your environment directory instead of the project folder. No error is shown, so this is easy to miss.
 
 ### Running the Interactive Platform
 
