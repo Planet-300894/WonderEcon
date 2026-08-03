@@ -82,6 +82,7 @@ All related files are distributed through the [**Releases**](../../releases) pag
 2. Double-click **`start_all.bat`** to launch the system.
 3. In the system, you can choose to enter Observe mode / Player mode. If you enter the player mode, you need to choose information including economic month, identity and risk preference. And you can play in the WonderEcon world.
    Once the system opens in observer mode, the quickest way in is to click **"Generate Default World Config"** at the bottom-right, then click **"Enter Observer Console"** to go straight into the world.
+▎ Important: When you are done, return to the terminal window opened by start_all.bat and press any key to stop all services. Do not close the terminal window directly — doing so will leave background processes running.
 
 ### Algorithm Engine
 
