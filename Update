@@ -1,0 +1,35 @@
+
+## Update
+***
+| Item | Details |
+|---|---|
+| **Current Version** | `v0.0.1` |
+| **Previous Version** | `v0.0.0` |
+| **Major Version** | `v0.0.1` |
+| **Release Type** | Bug Fix |
+| **Last Updated** | August 4, 2026 |
+
+> ***Current Version*** `v0.1.0`
+
+- Released on August 4, 2026
+- This release focuses on frontend modularization, backend API integration, and bug fixes.
+- Major changes
+  - Frontend
+    - Extracted key interface components(`Agent Explorer`, `View Agent.Tick Result`, and `View Simulation Summary`) and map components (`god_view_map`,`routes`and`person`) into independent components
+  - Backend
+    - Added a new API module named `results_gen`
+    - Integrated the `results_gen` APIs into the configuration workflow of the Observer interface
+  - Bug fixes
+    - Fixed an issue where the `Generate Default World Config` button failed to generate and apply the default world configuration
+    - Added a confirmation dialog to prevent unsaved generated results from being overwritten (`Confirm, Generate World Config`, `results_gen`, and `results_default`), Users can 
+      - `discard and regenerate`
+      - or `view the existing generated result`
+      - or `cancel and continue editing`
+
+
+> ***Previous Version*** `v0.0.0` 
+ - Relesed on July 11, 2026
+ - Initial project release
+ - The demo supported the submission of the related research paper and included:
+   - an **economic simulation engine** connecting major economic agents and markets;
+   - a **player system** for taking control of agents and comparing human decisions with LLM-generated decisions.
