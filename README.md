@@ -86,7 +86,7 @@ All related files are distributed through the [**Releases**](../../releases) pag
 ### Requirements
 
 * **OS:** Windows only (for Interactive Platform)
-* **Python:** Python **3.11 or later** is recommended
+* **Python:** Python **3.11 or later** is recommended (Add the Python path to your computer's PATH environment variable)
 * **Dependencies:**
   * Python packages:
     ```bash
