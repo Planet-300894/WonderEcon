@@ -32,8 +32,8 @@ Each priced economic action follows a four-step natural-language pipeline:
 ### Video Demo
 
 <div align="center">
-  <a href="./readme_assets/overview/Video_WonderEcon.mp4">
-    <img src="./readme_assets/overview/demo%20over.png" alt="WonderEcon Demo" width="90%">
+  <a href="./readme_assets/overview/WonderEcon_demo_20260804.mp4">
+    <img src="./readme_assets/overview/demo.png" alt="WonderEcon Demo" width="90%">
   </a>
 </div>
 
@@ -156,7 +156,7 @@ WonderEcon provides a web-based wizard for configuring:
   concurrency
   ```
   
-- Configuration overview
+Configuration overview:
 
 <table align="center">
   <tr>
@@ -175,18 +175,34 @@ WonderEcon provides a web-based wizard for configuring:
       <img src="./readme_assets/observer_mode/04_Macro_Environment_Settings.gif" alt="Macro Environment Settings" width="100%">
     </td>
     <td align="center" width="50%">
-      <b>Technical Config and Confirm</b><br>
+      <b>Technical Config</b><br>
       <img src="./readme_assets/observer_mode/05_Technical_Config_and_Confirm.gif" alt="Technical Config and Confirm" width="100%">
     </td>
   </tr>
+  <tr>
+    <td align="center" width="50%">
+      <b>Confirm and Generate</b><br>
+      <img src="./readme_assets/observer_mode/o_confirm_and_generate.gif" alt="Macro Environment Settings" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <b>Discard Unsaved Changes and View Default World</b><br>
+      <img src="./readme_assets/observer_mode/o_discard_and_return_to_default.gif" alt="Technical Config and Confirm" width="100%">
+    </td>
+  </tr>
 </table>
+
+This flowchart shows the full user flow from launching Observer Mode to viewing the final world state, covering configuration editing, result generation and storage, and confirmation dialogs:
+
+<div align="center">
+  <img src="./readme_assets/observer_mode/o_config_flowchart.jpg" width="90%">
+</div>
 
 ###  Interactive Economic Map Replay
 
 >Once the scenario is configured, WonderEcon advances the economic world through a fixed monthly tick order.  
 - Each tick follows a structured 25-step simulation procedure, as detailed below, and the process repeats until the simulation horizon is reached.
 <div align="center">
-   <img src="./readme_assets/observer_mode/o_step.png" alt="WonderEcon Overview" width="80%">
+   <img src="./readme_assets/observer_mode/o_step.png" alt="WonderEcon Overview" width="90%">
  </div>
  
  ```
@@ -203,22 +219,22 @@ WonderEcon provides a web-based wizard for configuring:
   <tr>
      <td align="center">
       <b>Agent Selection</b><br>
-      <img src="./readme_assets/observer_mode/o_select.gif" alt="Agent Selection" width="100%">
+      <img src="./readme_assets/observer_mode/o_choose_agent_and_start.gif" alt="Agent Selection" width="100%">
     </td>
     <td align="center">
-      <b>Labor View</b><br>
-      <img src="./readme_assets/observer_mode/o_labor.gif" alt="Labor View" width="100%">
+      <b>View 5 Scenes</b><br>
+      <img src="./readme_assets/observer_mode/o_5_scenes.gif" alt="Labor View" width="100%">
     </td>
 
   </tr>
   <tr>
     <td align="center">
       <b>JSON View</b><br>
-      <img src="./readme_assets/observer_mode/o_jason.gif" alt="JSON View" width="100%">
+      <img src="./readme_assets/observer_mode/o_view_configurations.gif" alt="JSON View" width="100%">
     </td>
   <td align="center">
-      <b>Macro Economic Indicators</b><br>
-      <img src="./readme_assets/observer_mode/o_all.gif" alt="All Agents" width="100%">
+      <b>Macro Economic Indicator Diagrams</b><br>
+      <img src="./readme_assets/observer_mode/o_view_diagrams.gif" alt="All Agents" width="100%">
     </td>
   </tr>
 </table>
@@ -240,7 +256,7 @@ Before entering the economic world, the player selects an entry tick and a targe
   
 The system then matches the player to one household agent and transfers the agent’s full state to the player.
 <div align="center">
-  <img src="readme_assets/player_mode/P_Start.gif" alt="Start Scene Demo“ width="80%">
+  <img src="readme_assets/player_mode/p_start.gif" alt="Start Scene Demo" width="80%">
 </div>
 
 After confirmation, the player enters the economic city and begins interacting with the simulated economy.
@@ -251,18 +267,18 @@ After choosing the character, the player takes over this household and overrides
 
 You can click guide and hint to view economic environment, market news and get directed to current task:
 <div align="center">
-  <img src="readme_assets/player_mode/P_guide_and_hint.gif" alt="guide and hint“ width="80%">
+  <img src="readme_assets/player_mode/p_guide.gif" alt="guide and hint" width="80%">
 </div>
 
 Across the five economic stations, the player can make decisions on:
 
 | Station | Player Decision | Demo |
 |------|------|------|
-| **Loan** | <b>Eligibility:</b> Labor-force, employed, wealth level ≤ 2, and not receiving government safety-net subsidies.<br><br><ul><li>Set a desired loan rate.</li><li>Choose whether to borrow.</li><li>If borrowing, set the loan amount (5%–50% of last-tick wage).</li></ul> | <img src="readme_assets/player_mode/P_loan_market.gif" width="600"> |
-| **Employment** | <b>Eligibility:</b> Labor-force players only.<br><br><ul><li>Set a desired wage.</li><li>Choose whether to quit (if employed).</li><li>Unemployed or quitting players re-enter the labor market.</li></ul> | <img src="readme_assets/player_mode/P_labor_market.gif" width="600"> |
-| **Consumption** | <ul><li>Set desired prices for necessity and luxury goods.</li><li>Choose the consumption ratio.</li><li>Allocate spending between necessity and luxury goods.</li></ul> | <img src="readme_assets/player_mode/P_goods_market.gif" width="600"> |
-| **Stocks** | <ul><li>Set desired prices for a necessity and a luxury stock.</li><li>Choose the investment ratio.</li><li>Allocate investments between the two stocks.</li><li>Stocks are cleared by call auction.</li></ul> | <img src="readme_assets/player_mode/P_stock_market.gif" width="600"> |
-| **Deposits** | <ul><li>All remaining assets are automatically deposited.</li><li>Set only the desired deposit rate to influence bank matching.</li><li>Deposits have no cap and always succeed.</li></ul> | <img src="readme_assets/player_mode/P_deposit_market.gif" width="600"> |
+| **Loan** | <b>Eligibility:</b> Labor-force, employed, wealth level ≤ 2, and not receiving government safety-net subsidies.<br><br><ul><li>Set a desired loan rate.</li><li>Choose whether to borrow.</li><li>If borrowing, set the loan amount (5%–50% of last-tick wage).</li></ul> | <img src="readme_assets/player_mode/p_loan.gif" width="600"> |
+| **Employment** | <b>Eligibility:</b> Labor-force players only.<br><br><ul><li>Set a desired wage.</li><li>Choose whether to quit (if employed).</li><li>Unemployed or quitting players re-enter the labor market.</li></ul> | <img src="readme_assets/player_mode/p_labor.gif" width="600"> |
+| **Consumption** | <ul><li>Set desired prices for necessity and luxury goods.</li><li>Choose the consumption ratio.</li><li>Allocate spending between necessity and luxury goods.</li></ul> | <img src="readme_assets/player_mode/p_goods.gif" width="600"> |
+| **Stocks** | <ul><li>Set desired prices for a necessity and a luxury stock.</li><li>Choose the investment ratio.</li><li>Allocate investments between the two stocks.</li><li>Stocks are cleared by call auction.</li></ul> | <img src="readme_assets/player_mode/p_stock.gif" width="600"> |
+| **Deposits** | <ul><li>All remaining assets are automatically deposited.</li><li>Set only the desired deposit rate to influence bank matching.</li><li>Deposits have no cap and always succeed.</li></ul> | <img src="readme_assets/player_mode/p_deposit.gif" width="600"> |
 
 All other agents’ decisions remain unchanged.  
 This design creates a clean counterfactual comparison between the human player and the original LLM agent.
