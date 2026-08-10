@@ -2,7 +2,7 @@
 
 
 ## 🌍Overview
-
+ 
 > ***WonderEcon*** is a configurable, **LLM-driven yet economic-rule-grounded multi-agent simulation system** with two integrated components:
 
 > - an **economic simulation engine**, in which households, firms, commercial banks, a central bank, and a government interact across five markets to form a self-consistent macroeconomic loop;
