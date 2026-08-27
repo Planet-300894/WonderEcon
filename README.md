@@ -1,7 +1,7 @@
 # **WonderEcon: an interactive LLM-agent economic simulation system**
 
 
-## 🌍Overview
+## 🌍 Overview
  
 > ***WonderEcon*** is a configurable, **LLM-driven yet economic-rule-grounded multi-agent simulation system** with two integrated components:
 
