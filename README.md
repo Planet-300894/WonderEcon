@@ -37,7 +37,7 @@ Each priced economic action follows a four-step natural-language pipeline:
   </a>
 </div>
 
-## Update
+## 🔥 Update
 ***
 | Item | Details |
 |---|---|
@@ -299,7 +299,7 @@ The feedback includes:
 </div>
 
 ---
-## Economic Personality Type Indicator (EPTI)
+## 🌟 Economic Personality Type Indicator (EPTI)
 
 WonderEcon’s Player Mode allows users to take control of a household agent, make decisions across five economic stations, and receive one of 16 Economic Personality Type Indicator (EPTI) classifications based on their economic behaviors.
 
@@ -637,7 +637,7 @@ After completing the session, participants rated the system on a five-point Like
 
 
 
-## Hall of Supporters：
+## 🏠 Hall of Supporters：
 ### Developed by：
 Jing Qian, Boyu Liu, Wenyuan Gu, Hang Ruan, Cheng Huo, Junjie Yang, Mingyu Deng, Zhen Xu, Feilin Li, Jiale Han, Benyou Wang
 
