@@ -47,7 +47,7 @@ Each priced economic action follows a four-step natural-language pipeline:
 | **Release Type** | Bug Fix |
 | **Last Updated** | August 4, 2026 |
 
-> ***Current Version*** `v0.1.0`
+> ***Current Version*** `v0.0.1`
 
 - Released on August 4, 2026
 - This release focuses on frontend modularization, backend API integration, and bug fixes.
