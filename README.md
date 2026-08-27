@@ -15,7 +15,7 @@
        width="100%">
 </div>
 
-###  LLM Decision Pipeline
+### LLM Decision Pipeline
 
 Each priced economic action follows a four-step natural-language pipeline:
 
@@ -37,7 +37,7 @@ Each priced economic action follows a four-step natural-language pipeline:
   </a>
 </div>
 
-## 🔥 Update
+## 🔥 News
 ***
 | Item | Details |
 |---|---|
