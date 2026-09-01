@@ -66,7 +66,7 @@ Each priced economic action follows a four-step natural-language pipeline:
 
 
 > ***Previous Version*** `v0.0.0` 
- - Relesed on July 11, 2026
+ - Released on July 11, 2026
  - Initial project release
  - The demo supported the submission of the related research paper and included:
    - an **economic simulation engine** connecting major economic agents and markets;
@@ -577,7 +577,7 @@ Each EPTI type is based on the player's revealed economic preferences and repres
 
 We evaluate WonderEcon from two complementary perspectives.
 
-- In Macro-Level Validity， we test whether the agents’ emergent responses match the stylized facts of monetary tightening.
+- In Macro-Level Validity, we test whether the agents’ emergent responses match the stylized facts of monetary tightening.
 - In the User Study, we assess the usability of the player platform and the perceived accuracy of the Economic Personality Type Indicator (EPTI) through a preliminary participant evaluation.
 
 
