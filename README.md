@@ -32,9 +32,9 @@ Each priced economic action follows a four-step natural-language pipeline:
 ### Video Demo
 
 <div align="center">
-  <a href="./readme_assets/overview/WonderEcon_demo_20260804.mp4">
-    <img src="./readme_assets/overview/demo.png" alt="WonderEcon Demo" width="90%">
-  </a>
+  <a href="https://b23.tv/l8SsoSq"><b>▶️ Click here to watch demo</b></a>
+  <br><br>
+  <img src="./readme_assets/overview/demo.png" alt="WonderEcon Demo" width="90%">
 </div>
 
 ## 🔥 News
