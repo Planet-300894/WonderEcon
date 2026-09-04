@@ -28,7 +28,7 @@ Each priced economic action follows a four-step natural-language pipeline:
   <img src="./readme_assets/overview/wonderecon_decision_pipeline.png" alt="WonderEcon Decision Pipeline" width="100%">
 </div>
 
-### 🌐 Live Demo                                                                                                  
+### Live Demo                                                                                                  
                                                                                                                        
 <div align="center">                                                                                              
   <a href="https://wonderecon.com"><b>🎮 Click here to play WonderEcon online</b></a>                             
